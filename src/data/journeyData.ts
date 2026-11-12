@@ -279,5 +279,5 @@ export const TRAVELLER_BIO = {
   philosophy: 'A computer science engineering student passionate about scalable backend systems, cloud architectures, algorithmic problem solving, and immersive web craft. Believing that every system is a journey from chaotic dunes to resilient destinations.',
   linkedin: 'https://linkedin.com/in/praveenc13',
   github: 'https://github.com/PraveenC-13',
-  email: 'praveenc13.dev@gmail.com', // configurable
+  email: 'praveenchinnaraja13@gmail.com', // configurable
 };
