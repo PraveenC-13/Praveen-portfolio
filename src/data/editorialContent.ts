@@ -59,7 +59,7 @@ export const PRAVEEN_PROFILE = {
     github: 'https://github.com/PraveenC-13',
     linkedin: 'https://linkedin.com/in/praveenc13',
     leetcode: 'https://leetcode.com/u/PRAVEEN-C13',
-    email: 'praveenc13.dev@gmail.com', // Configurable email address
+    email: 'praveenchinnaraja13@gmail.com',
   },
   statement: `I am an undergraduate computer science engineer in Bengaluru with a deep inclination toward backend architectures, systems programming, and algorithmic problem solving. Rather than assembling superficial interfaces or memorizing syntax, I prefer understanding how pieces fit under the hood—how spatial data is indexed in memory, how network protocols buffer telemetry under stress, and how autonomous feedback loops balance compute workloads.`,
   learningApproach: `My approach to software engineering is rooted in first principles and direct construction. When a concept fascinates me—be it concurrent stream processing, reinforcement learning control loops, or maritime berth optimization—I set up a local environment, inspect the bottlenecks, handle failure modes, and build a working system from scratch.`,

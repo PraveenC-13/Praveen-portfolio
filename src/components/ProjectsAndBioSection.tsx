@@ -245,14 +245,6 @@ export const ProjectsAndBioSection: React.FC<ProjectsSectionProps> = ({ onJumpTo
             <GithubLogo className="w-4 h-4" />
             <span>VIEW GITHUB</span>
           </a>
-
-          <a
-            href={`mailto:${TRAVELLER_BIO.email}`}
-            className="px-6 py-3 rounded-lg bg-neutral-900 border border-neutral-700 text-neutral-200 hover:bg-neutral-800 font-mono-tech text-xs tracking-wider transition flex items-center gap-2"
-          >
-            <span>EMAIL DIRECTLY</span>
-            <span className="text-neutral-400 text-[10px]">({TRAVELLER_BIO.email})</span>
-          </a>
         </div>
 
         <div className="pt-16 border-t border-neutral-900 text-xs font-mono-tech text-neutral-600 flex flex-col sm:flex-row items-center justify-between gap-4">

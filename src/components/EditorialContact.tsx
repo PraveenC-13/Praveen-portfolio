@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUpRight, Mail } from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
 import { PRAVEEN_PROFILE } from '../data/editorialContent';
 
 export const EditorialContact: React.FC = () => {
@@ -25,21 +25,13 @@ export const EditorialContact: React.FC = () => {
         {/* Primary Contact Action Pill & Social Links */}
         <div className="flex flex-wrap items-center justify-center gap-4 pt-4">
           <a
-            href={`mailto:${PRAVEEN_PROFILE.socials.email}`}
-            className="px-8 py-4 rounded bg-[#4a1521] text-white hover:bg-[#6b1c2e] font-mono-tech text-xs tracking-[0.2em] font-semibold uppercase transition-all duration-300 flex items-center gap-2 shadow-xl shadow-black/40 cursor-pointer"
-          >
-            <Mail className="w-4 h-4" />
-            <span>EMAIL DIRECTLY</span>
-          </a>
-
-          <a
             href={PRAVEEN_PROFILE.socials.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-7 py-4 rounded border border-white/20 hover:border-white hover:bg-white/10 text-white font-mono-tech text-xs tracking-[0.2em] uppercase transition-all duration-300 flex items-center gap-1.5 cursor-pointer"
+            className="px-8 py-4 rounded bg-[#4a1521] text-white hover:bg-[#6b1c2e] font-mono-tech text-xs tracking-[0.2em] font-semibold uppercase transition-all duration-300 flex items-center gap-2 shadow-xl shadow-black/40 cursor-pointer"
           >
-            <span>LINKEDIN</span>
-            <ArrowUpRight className="w-3.5 h-3.5" />
+            <span>CONNECT ON LINKEDIN</span>
+            <ArrowUpRight className="w-4 h-4" />
           </a>
 
           <a
